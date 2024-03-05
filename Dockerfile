@@ -4,6 +4,8 @@ COPY . ./app
 
 WORKDIR ./app
 
+RUN ["chmod", "+x", "./mvnw"]
+
 RUN ["./mvnw", "clean", "package", "-Pproduction"]
 
 FROM openjdk:17-jdk-slim
