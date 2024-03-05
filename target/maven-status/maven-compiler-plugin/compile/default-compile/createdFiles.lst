@@ -1,7 +1,0 @@
-entity\Turn.class
-com\example\application\Application.class
-com\example\application\views\main\MainView.class
-entity\Scrabble.class
-entity\Player.class
-com\example\application\views\main\PlayerForm.class
-com\example\application\views\main\PlayerStats.class
